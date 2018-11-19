@@ -1,10 +1,9 @@
 # TSP1
-Traveling salesperson problem part 1
-by Yilian Liu Q75098
-and Vinay Gopalan
+Traveling Salesperson Problem: Part 1
+by Vinay Gopalan
 
 cities.hh
-	the header file, it declares class Cities 
+	the header file, declares class Cities 
 	as well as 3 free functions:
 		operator >>, which reads from a file and stores into a cities object
 		operator <<, which stores data from a cities object into a file
@@ -21,3 +20,5 @@ tsp.cc
 	permutations
 	it then returns the new cities arranged in the order that gives the 
 	shortest distance	
+
+Plots of the shortest distances are provided.
